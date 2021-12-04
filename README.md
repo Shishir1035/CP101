@@ -1,1 +1,1 @@
-# CP---OJ-Solves
+# Go get fucked up
