@@ -45,7 +45,7 @@ int main()
 	int n,l,u,v;
 	while(cin>>n)
 	{
-		memset(color,0,205);
+		memset(color,0,4*205);
 		if(n==0)
 			return 0;
 
