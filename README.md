@@ -1,1 +1,1 @@
-# Go get fucked up
+# Shala Abal... Ki likhsos egula
