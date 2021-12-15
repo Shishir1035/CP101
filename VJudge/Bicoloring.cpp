@@ -58,9 +58,9 @@ int main()
 			adj[v].pb(u);
 		}
 		if(bfs())
-			cout<<"BICOLORABLE\n";
+			cout<<"BICOLORABLE.\n";
 		else
-			cout<<"NON BICOLORABLE\n";
+			cout<<"NOT BICOLORABLE.\n";
 
 		for (int i = 0; i < n; ++i)
 			adj[i].clear();
