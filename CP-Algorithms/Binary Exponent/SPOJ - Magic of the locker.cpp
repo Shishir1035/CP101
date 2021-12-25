@@ -25,11 +25,7 @@ int main()
 	{
 		ll a,b,n;
 		cin>>n;
-		if(n==1) 
-		{
-			cout<<1<<endl;
-			continue;
-		}
+		
 		ll ans=v[0], temp = n/6;
 		ll rem = n%6;
 		if(n<=7)
