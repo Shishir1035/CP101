@@ -32,7 +32,9 @@ int main()
 		}
 		ll ans=v[0], temp = n/6;
 		ll rem = n%6;
-		if(rem != 1)
+		if(n<=7)
+			ans = v[n];
+		else if(rem != 1)
 			ans = bigmod(9,temp) * v[rem]; 
 		else
 			ans = bigmod(9, temp-1) * v[7];
