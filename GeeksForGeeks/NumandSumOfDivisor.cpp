@@ -28,7 +28,8 @@ void query(int n)
 			cnt++;
 		else
 		{
-			ans = ans*(cnt+1);
+			ans = ans*(cnt+1);				//For NOD
+			ans = ans * ((pow(temp,cnt+1)-1)/(temp-1));	//For SOD
 			cnt = 1;
 			temp = arr[n];
 		}
